@@ -6,7 +6,7 @@ control:
   energyaverage:  False           # True to perform energy integral over energy spread, if False just use mean energy gamma
 
   sampling:         rejection     # rejection or weight
-  sample_electrons: 1e8           # total number of electrons to sample
+  sample_electrons: 1e2        # total number of electrons to sample
 
 
   # rescaling of pulse duration for better emittance integration
