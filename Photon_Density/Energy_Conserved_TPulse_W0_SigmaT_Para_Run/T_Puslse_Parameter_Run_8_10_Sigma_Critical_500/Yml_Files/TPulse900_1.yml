@@ -4,7 +4,7 @@ beam:
   energyspread: 1e-3
   gamma: 32289.62818003914
   sigmaL: 20.0
-  sigmaT: 20
+  sigmaT: 5.0
   theta: 0.0
 control:
   Path: Automatic
@@ -12,12 +12,12 @@ control:
     Nemit: 30
     Nenergy: 7
   energyaverage: false
-  folder: Sigma_Parameter_Run_8_10
+  folder: T_Puslse_Parameter_Run_8_10
   laser:
     sigma_crit: 500.0
     sigma_rescale: false
   mode: full
-  name: C:\Users\Dupish\Documents\GitHub\luxeics\Photon_Density\Sigma_Parameter_Run_8_10\H_Five\SigmaT20_1
+  name: C:\Users\Dupish\Documents\GitHub\luxeics\Photon_Density\T_Puslse_Parameter_Run_8_10\H_Five\TPulse900_1
   radiation: KN
   sample_electrons: 1e8
   sampling: rejection
@@ -33,8 +33,8 @@ detector:
   - 15e-6
   - 110
 laser:
-  Tpulse: 100.0
-  a0: 0.1
+  Tpulse: 900
+  a0: 0.03333333333333334
   omega0: 4.1
   pol: 0.7853981633974483
   pulse: cos2
