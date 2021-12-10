@@ -4,7 +4,7 @@ control:
   name:           small_beam_full # naming of output files
   radiation:      KN              # KN==Klein-Nishina cross section ... don't change
   energyaverage:  False           # True to perform energy integral over energy spread, if False just use mean energy gamma
-  folder: T_Puslse_Parameter_Run
+  folder: Sigmax_Sigmay20
   sampling:         rejection     # rejection or weight
   sample_electrons: 1e8           # total number of electrons to sample
 
@@ -12,8 +12,8 @@ control:
 
   # rescaling of pulse duration for better emittance integration
   laser:
-    sigma_rescale: False
-    sigma_crit:    500.
+    sigma_rescale: True
+    sigma_crit:    800.
   # sampling:      rejection
   beam:
     Nenergy:        7         # number of nodes for energy spread integration
@@ -27,21 +27,21 @@ beam:
   energyspread: 1e-3
   theta:        0.
   emittance:    1.4       # mm mrad
-  sigmaX:       5.        # micron, transverse beam size
-  sigmaY:       5.        # micron, transverse beam size
+  sigmaX:       20.        # micron, transverse beam size
+  sigmaY:       20.        # micron, transverse beam size
   sigmaL:       20.       # micron, longitduinal beam size
   beam_charge:  100e-12   # beam charge in Coulomb
-
-
+  L: 7.5e6
+  baseline: 7.5e6
 laser:
-  a0:     0.1                 # normalized laser vector potential
+  a0:     0.09223328399498794                # normalized laser vector potential
   omega0: 4.1                 # eV, laser frequency 
-  Tpulse: 100.0               # fs, FWHM laser pulse duration
+  Tpulse: 1000.0               # fs, FWHM laser pulse duration
   pol:    0.7853981633974483  # polarization parameter, CP
   pulse:  cos2                # pulse envelope function, only cos2 supported so far
-  w0:     25.                 # micron, rms laser spot size
-  # w0:     5.                 # micron, rms laser spot size
-
+  #w0:     25.                 # micron, rms laser spot size
+  w0:     5.                 # micron, rms laser spot size
+  Energy: 100
 detector:                    # spectrum calculation
   pdim:  2                   # number of detector dimensions for spectrum calculation
   omega: [5.0e9,9.2e9,300]   # [omegamin,omegamax,Nomega] , eV
