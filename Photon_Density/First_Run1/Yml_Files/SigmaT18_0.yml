@@ -1,0 +1,44 @@
+beam:
+  L: 7.5e6
+  baseline: 7.5e6
+  beam_charge: 100e-12
+  emittance: 1.4
+  energyspread: 1e-3
+  gamma: 32289.62818003914
+  sigmaL: 20.0
+  sigmaX: 5.0
+  sigmaY: 5.0
+  theta: 0.0
+control:
+  beam:
+    Nemit: 30
+    Nenergy: 7
+  energyaverage: false
+  folder: First_Run1
+  laser:
+    sigma_crit: 800.0
+    sigma_rescale: false
+  mode: full
+  name: C:\Users\Dupish\Documents\GitHub\luxeics\Photon_Density\First_Run1\H_Five\SigmaT18_0
+  radiation: KN
+  sample_electrons: 1e9
+  sampling: rejection
+detector:
+  omega:
+  - 5.0e9
+  - 9.2e9
+  - 300
+  pdim: 2
+  phi: 0.0
+  theta:
+  - 0
+  - 15e-6
+  - 110
+laser:
+  Energy: 100
+  Tpulse: 1000.0
+  a0: 0.025620356665274426
+  omega0: 4.1
+  pol: 0.7853981633974483
+  pulse: cos2
+  w0: 18
