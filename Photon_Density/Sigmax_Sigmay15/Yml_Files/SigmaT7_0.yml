@@ -1,5 +1,5 @@
 beam:
-  L: 7.5e6
+  L: 0
   baseline: 7.5e6
   beam_charge: 100e-12
   emittance: 1.4
@@ -21,7 +21,7 @@ control:
   mode: full
   name: C:\Users\Dupish\Documents\GitHub\luxeics\Photon_Density\Sigmax_Sigmay15\H_Five\SigmaT7_0
   radiation: KN
-  sample_electrons: 1e9
+  sample_electrons: 1e8
   sampling: rejection
 detector:
   omega:

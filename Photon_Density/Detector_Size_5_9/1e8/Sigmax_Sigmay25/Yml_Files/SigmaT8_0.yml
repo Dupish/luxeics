@@ -1,0 +1,44 @@
+beam:
+  L: 7.5e6
+  baseline: 7.5e6
+  beam_charge: 100e-12
+  emittance: 1.4
+  energyspread: 1e-3
+  gamma: 32289.62818003914
+  sigmaL: 20.0
+  sigmaX: 25.0
+  sigmaY: 25.0
+  theta: 0.0
+control:
+  beam:
+    Nemit: 30
+    Nenergy: 7
+  energyaverage: false
+  folder: Sigmax_Sigmay25
+  laser:
+    sigma_crit: 800.0
+    sigma_rescale: true
+  mode: full
+  name: C:\Users\Dupish\Documents\GitHub\luxeics\Photon_Density\Sigmax_Sigmay25\H_Five\SigmaT8_0
+  radiation: KN
+  sample_electrons: 1e8
+  sampling: rejection
+detector:
+  omega:
+  - 5.0e9
+  - 9.2e9
+  - 300
+  pdim: 2
+  phi: 0.0
+  theta:
+  - 0
+  - 15e-6
+  - 110
+laser:
+  Energy: 100
+  Tpulse: 1000.0
+  a0: 0.05764580249686746
+  omega0: 4.1
+  pol: 0.7853981633974483
+  pulse: cos2
+  w0: 8

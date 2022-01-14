@@ -6,7 +6,7 @@ control:
   energyaverage:  False           # True to perform energy integral over energy spread, if False just use mean energy gamma
   folder: Sigmax_Sigmay15
   sampling:         rejection     # rejection or weight
-  sample_electrons: 1e9          # total number of electrons to sample
+  sample_electrons: 1e8          # total number of electrons to sample
 
 
 
@@ -31,7 +31,7 @@ beam:
   sigmaY:       15.        # micron, transverse beam size
   sigmaL:       20.       # micron, longitduinal beam size
   beam_charge:  100e-12   # beam charge in Coulomb
-  L: 7.5e6
+  L: 0
   baseline: 7.5e6
 laser:
   a0:     0.09223328399498794                # normalized laser vector potential

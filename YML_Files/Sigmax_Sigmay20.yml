@@ -31,7 +31,7 @@ beam:
   sigmaY:       20.        # micron, transverse beam size
   sigmaL:       20.       # micron, longitduinal beam size
   beam_charge:  100e-12   # beam charge in Coulomb
-  L: 7.5e6
+  L: 0
   baseline: 7.5e6
 laser:
   a0:     0.09223328399498794                # normalized laser vector potential
